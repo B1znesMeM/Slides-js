@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Slider-style.css">
+    <script src="Slider-script.js" defer></script>
+    <title>Slider</title>
+</head>
+<body>
+    
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+
+            <div class="numbertext">1/3</div>
+            <img src="./Slider-image/Bg-slider1.jpeg" style="width: 100%;" alt="">
+
+        </div>
+
+        <div class="mySlides fade">
+
+            <div class="numbertext">2/3</div>
+            <img src="./Slider-image/Bg-slider2.jpg" style="width: 100%;" alt="">
+            
+        </div>
+
+        <div class="mySlides fade">
+
+            <div class="numbertext">3/3</div>
+            <img src="./Slider-image/Bg-slider3.jpg" style="width: 100%;" alt="">
+            
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+        <a class="next" onclick="plusSlides(1)">&#10095</a>
+
+    </div>
+    <br>
+
+    <div style="text-align: center;">
+    
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+
+    </div>
+
+</body>
+</html>
